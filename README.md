@@ -25,7 +25,7 @@ Onenet for laravel is a laravel library for OneNet platform data reception
 2. Create a configuratioin file:
 
 ```shell
-  php artisan vendor:publish --provider="OneNet\Laravel\OneNetServiceProvider"
+  php artisan vendor:publish --provider="Onenet\Laravel\OneNetServiceProvider"
 ```
 
 3. (optional) Edit config/onenet.php file or write the following in the .env file
@@ -38,7 +38,7 @@ Onenet for laravel is a laravel library for OneNet platform data reception
 4. Add the appearance to the 'alaises' in 'confit/app.php' (laravel 5.5+ doesn't need to be added manually)
 
 ```php
-  'OneNet'=>OneNet\Laravel\Facades\OneNet::class,
+  'OneNet'=>Onenet\Laravel\Facades\OneNet::class,
 ```
 
 ## Receive platform data from 
