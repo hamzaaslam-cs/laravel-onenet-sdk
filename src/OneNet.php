@@ -45,7 +45,7 @@ class OneNet
      * @param string $protocol
      * @return array
      */
-    public static function add($title, $protocol = 'HTTP')
+    public static function add($title, $protocol = 'HTTP'): array
     {
         $client = self::getclient();
         $response = $client->post('/devices', [
