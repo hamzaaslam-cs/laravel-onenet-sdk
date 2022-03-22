@@ -15,10 +15,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "OneNet\\Laravel\\OneNetServiceProvider"
+                "Onenet\\Laravel\\OneNetServiceProvider"
             ],
             "aliases": {
-                "OneNet": "OneNet\\Laravel\\Facades\\OneNet"
+                "OneNet": "Onenet\\Laravel\\Facades\\OneNet"
             }
         }
     },

@@ -19,7 +19,7 @@ Onenet for laravel is a laravel library for OneNet platform data reception
 1. manually register 'ServiceProvider'
 
 ```php
-  OneNet\Laravel\OneNetServiceProvider::class,
+  Onenet\Laravel\OneNetServiceProvider::class,
 ```
 
 2. Create a configuratioin file:
