@@ -3,7 +3,7 @@
     "description": "This package can be used to connect to onenet",
     "type": "library",
     "require": {
-        "php": ">=^8.0",
+        "php": ">=8.0",
         "guzzlehttp/guzzle": "7.4.x"
     },
     "license": "MIT",
