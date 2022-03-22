@@ -1,6 +1,6 @@
 <?php
 
-namespace Boneq\OneNet;
+namespace Onenet\Laravel;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Collection;

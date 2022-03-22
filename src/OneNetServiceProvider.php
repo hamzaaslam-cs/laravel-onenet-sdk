@@ -1,6 +1,6 @@
 <?php
 
-namespace Boneq\OneNet;
+namespace Onenet\Laravel;
 
 use Illuminate\Support\ServiceProvider;
 
